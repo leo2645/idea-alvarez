@@ -1,254 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../imagenes/logo-icono.png">
-    <link rel="stylesheet" href="../estilos/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <title>Equipamiento comercial</title>
-</head>
-<body class="body">
-    <header>
-        <nav class="nav" >
-            <div class="contenedor">
-
-            <div class="logo" >
-                <a href="../index.html"><img  class="logo__logo" src=../imagenes/logoempresa.png alt="logo empresa"></a>
-            </div>
-            <div class="buscador">
-                <form  method="get" action="https://www.google.com/search" target="_blank">
-                <input class="buscador__recuadro" type="search" name="buscar" placeholder="Buscar producto" autofocus required>
-                <input class="buscador__boton" type="submit"> 
-                </form>
-            </div>
-            <div class="telefono">
-                 <a href="https://web.whatsapp.com/" ><img  class="redes__telefono--logowhatsapp" src="../imagenes/whatsapp.png" alt="whatsapp"> </a>
-            </div>
-            <div class="registro">
-                <img class="tipito" src="../imagenes/usuario.png"  alt="usuario"> <a class="registro__login" href="login-registro.html">Login </a>
-                <a class="registro__registro" href="login-registro.html">Registrarse</a>
-            </div>
-            <div class="secciones">
-                <a  class="secciones__link" href="equipamiento-comercial.html">Equipamiento comercial</a>
-                <a  class="secciones__link" href="electrodomesticos.html">Electrodomesticos</a>
-                <a  class="secciones__link" href="hogar-aire-libre.html">Hogar y aire libre</a>
-             </div>
-             </div>
-         </nav>
-   
-    </header>
-    <main>
-        <section >
-            <div class="titulos2">
-                <h3 class="electrotitulo1"> Exhibidoras / freezers</h3>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
-                <div class="destacados1">
-                    <div class="img1" >
-                        <img class="destacados__imagenes1" src="../imagenes/doble.png" alt=" Exhibidora doble">
-                        <p class="texto">Exhibidora dos puertas</p>
-                    </div>
-                    <div class="img2">
-                        <img class="destacados__imagenes1" src="../imagenes/m5000.png" alt=" m5000">
-                        <p class="texto">Exhibidora m5000</p>
-                    </div>    
-                    <div class="img3">
-                        <img class="destacados__imagenes1" src="../imagenes/m4200.png" alt="m4200 ">
-                        <p class="texto"> Exhibidora m4200 </p>
-                    </div>
-                    <div class="img4" >
-                        <img class="destacados__imagenes1" src="../imagenes/m3200.png" alt="m3200">
-                        <p class="texto">Exhibidora m3200</p>
-                    </div>
-                     <div class="img5" >
-                        <img class="destacados__imagenes1" src="../imagenes/2tapas.png" alt="2 tapas">
-                        <p class="texto">Freezer dos tapas</p>
-                    </div>
-                    <div class="img6" >
-                        <img class="destacados__imagenes1" src="../imagenes/330.png" alt=" 330">
-                        <p class="texto">Freezer 330</p>
-                    </div>
-                    <div class="img7">
-                        <img class="destacados__imagenes1" src="../imagenes/270.png" alt=" 270">
-                        <p class="texto">Freezer 270</p>
-                    </div>    
-                    <div class="img8">
-                        <img class="destacados__imagenes1" src="../imagenes/tapavidrio.png" alt="tapa vidrio ">
-                        <p class="texto"> Tapa vidrio</p>
-                    </div>
-                    <div class="img9" >
-                        <img class="destacados__imagenes1" src="../imagenes/mostrador.png" alt="mostrador">
-                        <p class="texto">Exhibidora mostrador </p>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6a843029e5.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+        <link rel="icon" href="imagenes/logo-icono.png">
+        <link rel="stylesheet" href="../estilos/estilos.css">
+        <title>Equipamiento comercial</title>
+    </head>
+    <body>
+        <header>
+            <nav >
+                <div class="container ">
+                    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark col-12 ">
+                        <div class="container-fluid">
+                          <a class="navbar-brand"  href="index.html"><img  class="logo__logo" src="../imagenes/logoempresa.png" alt="logo empresa"></href=></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./equipamiento-comercial.html">Equipamiento comercial</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./electrodomesticos.html">Electrodomesticos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./hogar-aire-libre.html">Hogar y aire libre</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a  class="nav-link" href="./login-registro.html">Login - Registro </a>
+                              
+                              </li>
+                             
+                            
+                            </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+                              <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                            </form>
+                          </div>
+                        </div>
+                      </nav>
+             
+                
+                
+    
+                 </div>
+                
+                   
+             </nav>
+       
+        </header>
+    
+        <main>
+    
+            <section>
+                <div class="titulos">
+                    <h3 class="electrotitulo1"> Exhibidoras y freezers</h3>
+                </div>
+                <div class="container mt-5 " >
+                    <div class="row ofertas__centroytexto">
+                        <div class="card " style="width: 18rem;">
+                            <img src="../imagenes/doble.png" class="card-img-top ofertas__imagenes" alt="doble">
+                            <div class="card-body">
+                         <p class="card-text">Exhibidora dos puertas"</p>
+                            </div>
+                         </div><div class="card" style="width: 18rem;">
+                            <img src="../imagenes/m5000.png" class="card-img-top ofertas__imagenes" alt="m5000">
+                           <div class="card-body">
+                            <p class="card-text"> M5000</p>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/m4200.png" class="card-img-top ofertas__imagenes" alt="m4200">
+                           <div class="card-body">
+                           <p class="card-text">M4200</p>
+                            </div>
+                           </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/m3200.png" class="card-img-top ofertas__imagenes" alt="m3200">
+                             <div class="card-body">
+                           <p class="card-text"> M3200</p>
+                            </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/mostrador.png" class="card-img-top ofertas__imagenes" alt="mostrador">
+                                 <div class="card-body">
+                               <p class="card-text">Mostrador</p>
+                                </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../imagenes/2tapas.png" class="card-img-top ofertas__imagenes" alt="2tapas">
+                                     <div class="card-body">
+                                   <p class="card-text">Freezer 2 tapas</p>
+                                    </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../imagenes/330.png" class="card-img-top ofertas__imagenes" alt="330">
+                                         <div class="card-body">
+                                       <p class="card-text">FR330</p>
+                                        </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="../imagenes/270.png" class="card-img-top ofertas__imagenes" alt="270">
+                                             <div class="card-body">
+                                           <p class="card-text"> FR270</p>
+                                            </div>
+                                            </div>
                     </div>
                    
+                </div>     
+                <div class="titulos">
+                    <h3 class="electrotitulo2"> Balanzas / Cortadoras /Picadoras / Rebozadoras</h3>
+                </div>
+                <div class="container mt-5 " >
+                    <div class="row ofertas__centroytexto">
+                        <div class="card " style="width: 18rem;">
+                            <img src="../imagenes/kretzimpresora.png" class="card-img-top ofertas__imagenes" alt="kretz">
+                            <div class="card-body">
+                         <p class="card-text">Kretz c/impresora"</p>
+                            </div>
+                         </div><div class="card" style="width: 18rem;">
+                            <img src="../imagenes/balanza.png" class="card-img-top ofertas__imagenes" alt="kretz">
+                           <div class="card-body">
+                            <p class="card-text"> Kretz c/torre</p>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/balanzadifital.png" class="card-img-top ofertas__imagenes" alt="balanza">
+                           <div class="card-body">
+                           <p class="card-text">Balanza digital</p>
+                            </div>
+                           </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/cortadora.png" class="card-img-top ofertas__imagenes" alt="cortadora">
+                             <div class="card-body">
+                           <p class="card-text">Cortadora FIORE330</p>
+                            </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/empanadora.png" class="card-img-top ofertas__imagenes" alt="empanadora">
+                                 <div class="card-body">
+                               <p class="card-text">Rebozadora</p>
+                                </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../imagenes/picadora.png" class="card-img-top ofertas__imagenes" alt="picadora">
+                                     <div class="card-body">
+                                   <p class="card-text">Picadora de carne</p>
+                                    </div>
+                                    </div>
+                                   
                     </div>
-          
-           
+                   
+                </div>   
+                 
             <div class="titulos">
-                <h3 class="electrotitulo2"> Balanzas / Cortadoras / Picadoras </h3>
-            </div>
-            
-            <div class="destacados2">
-            <div class="img1" >
-                <img class="destacados__imagenes1" src="../imagenes/kretzimpresora.png" alt=" balanza impresora">
-                <p class="texto">Balanza con impresora</p>
-            </div>
-           
-            <div class="img2">
-                <img class="destacados__imagenes1" src="../imagenes/kretztorre.png" alt=" balanza torre">
-                <p class="texto">Balanza con torre</p>
-           </div>    
-           <div class="img3">
-                <img class="destacados__imagenes1" src="../imagenes/kretzcomun.jpg" alt="balanza ">
-                <p class="texto"> Balanza sin torre </p>
-           </div>
-           <div class="img4" >
-                <img class="destacados__imagenes1" src="../imagenes/cortadora.png" alt="cortadora">
-                <p class="texto">Cortadora Fiore 330</p>
-           </div>
-           <div class="img5" >
-                <img class="destacados__imagenes1" src="../imagenes/picadora.png" alt="picadora">
-                <p class="texto">Picadora de carne</p>
-           </div>
-           
-      
-                          
-        </div>
-        
-        <div class="titulos">
-            <h3 class="electrotitulo3"> Hornos / Freidoras / Panificacion </h3>
-            </div>
-         
-            <div class="destacados2">
-
-        
-
-                <div class="img1" >
-                    <img class="destacados__imagenes1" src="../imagenes/hornomultiple1.png" alt=" horno multiple">
-                    <p class="texto">Horno multiple</p>
-          </div>
-           
-           <div class="img2">
-                    <img class="destacados__imagenes1" src="../imagenes/hornopizzero1.png" alt=" horno pizzero ">
-                    <p class="texto">Horno pizzero</p>
-           </div>    
-           <div class="img3">
-                    <img class="destacados__imagenes1" src="../imagenes/freidoradoble.png" alt="doble ">
-                    <p class="texto"> Freidora doble </p>
-           </div>
-           <div class="img4" >
-                    <img class="destacados__imagenes1" src="../imagenes/freidora.png" alt="freidora">
-                    <p class="texto"> Freidora </p>
-           </div>
-           <div class="img5" >
-                    <img class="destacados__imagenes1" src="../imagenes/amasadora.png" alt="amasadora">
-                    <p class="texto">Amasadora</p>
-           </div>
-           <div class="img6">
-            <img class="destacados__imagenes1" src="../imagenes/empanadora.png" alt="rebozadora ">
-            <p class="texto"> Empanadora </p>
-   </div>
-   <div class="img7" >
-            <img class="destacados__imagenes1" src="../imagenes/sobadora.png" alt="sobadora">
-            <p class="texto"> Sobadora de mesa </p>
-   </div>
-   <div class="img8" >
-            <img class="destacados__imagenes1" src="../imagenes/ralladora.png" alt="ralladora de pan">
-            <p class="texto">Rallador de pan</p>
-   </div>
-           
-      
-                          
-        </div>
-        
-        <div class="titulos">
-            <h3 class="electrotitulo4"> Amoblamiento / Termoselladoras / Carteleria </h3>
-            </div>
-         
-            <div class="destacados2">
-
-        
-
-                <div class="img1" >
-                    <img class="destacados__imagenes1" src="../imagenes/estanterias.png" alt=" estanterias">
-                    <p class="texto">Estanterias</p>
-          </div>
-           
-           <div class="img2">
-                    <img class="destacados__imagenes1" src="../imagenes/panadero1.png" alt=" Panadero ">
-                    <p class="texto">Panadero</p>
-           </div>    
-           <div class="img3">
-                    <img class="destacados__imagenes1" src="../imagenes/panadero2.png" alt="panadero ">
-                    <p class="texto"> Panadero </p>
-           </div>
-           <div class="img4" >
-                    <img class="destacados__imagenes1" src="../imagenes/termoselladora.png" alt="termoselladora">
-                    <p class="texto"> Termoselladora </p>
-           </div>
-           <div class="img5" >
-                    <img class="destacados__imagenes1" src="../imagenes/termoselladora1.png" alt="termoselladora">
-                    <p class="texto">Termoselladora</p>
-           </div>
-           <div class="img1">
-            <img class="destacados__imagenes1" src="../imagenes/cartelled.png" alt="cartel ">
-            <p class="texto"> Cartel LED </p>
-   </div>
-   
-           
-      
-                          
-        </div>
-        
+                <h3 class="electrotitulo3"> Hornos / Freidoras / Panificacion </h3>
+                </div>  
+                <div class="container mt-5 " >
+                    <div class="row ofertas__centroytexto">
+                        <div class="card " style="width: 18rem;">
+                            <img src="../imagenes/hornomultiple1.png" class="card-img-top ofertas__imagenes" alt="horno">
+                            <div class="card-body">
+                         <p class="card-text">Horno multiple"</p>
+                            </div>
+                         </div><div class="card" style="width: 18rem;">
+                            <img src="../imagenes/hornopizzero1.png" class="card-img-top ofertas__imagenes" alt="horno">
+                           <div class="card-body">
+                            <p class="card-text">Horno pizzero</p>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/freidoradoble.png" class="card-img-top ofertas__imagenes" alt="freidora">
+                           <div class="card-body">
+                           <p class="card-text">Freidora doble</p>
+                            </div>
+                           </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/freidora1.png" class="card-img-top ofertas__imagenes" alt="freidora">
+                             <div class="card-body">
+                           <p class="card-text">Freidora</p>
+                            </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/amasadora.png" class="card-img-top ofertas__imagenes" alt="amasadora">
+                                 <div class="card-body">
+                               <p class="card-text">Amasadora </p>
+                                </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../imagenes/ralladora.png" class="card-img-top ofertas__imagenes" alt="ralladora">
+                                     <div class="card-body">
+                                   <p class="card-text">Ralladora de pan</p>
+                                    </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../imagenes/sobadora.png" class="card-img-top ofertas__imagenes" alt="sobadora">
+                                         <div class="card-body">
+                                       <p class="card-text">Sobadora</p>
+                                        </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="../imagenes/empanadora.png" class="card-img-top ofertas__imagenes" alt="empanadora">
+                                             <div class="card-body">
+                                           <p class="card-text">Rebozadora</p>
+                                            </div>
+                                            </div>
+                    </div>
+                   
+                </div>  
+                <div class="titulos">
+                    <h3 class="electrotitulo4"> Amoblamiento / Termoselladoras / Carteleria </h3>
+                    </div>
+                    <div class="container mt-5 " >
+                        <div class="row ofertas__centroytexto">
+                            <div class="card " style="width: 18rem;">
+                                <img src="../imagenes/estanterias.png" class="card-img-top ofertas__imagenes" alt="estanterias">
+                                <div class="card-body">
+                             <p class="card-text">Estanterias"</p>
+                                </div>
+                             </div><div class="card" style="width: 18rem;">
+                                <img src="../imagenes/panadero1.png" class="card-img-top ofertas__imagenes" alt="panadero">
+                               <div class="card-body">
+                                <p class="card-text">Panadero</p>
+                                </div>
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/panadero2.png" class="card-img-top ofertas__imagenes" alt="panadero">
+                               <div class="card-body">
+                               <p class="card-text">Panadero</p>
+                                </div>
+                               </div>
+                              <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/termoselladora.jpg" class="card-img-top ofertas__imagenes" alt="termoselladora">
+                                 <div class="card-body">
+                               <p class="card-text">Termoselladora</p>
+                                </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../imagenes/termoselladora1.png" class="card-img-top ofertas__imagenes" alt="termoselladora">
+                                     <div class="card-body">
+                                   <p class="card-text">Termoselladora </p>
+                                    </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../imagenes/cartelled.png" class="card-img-top ofertas__imagenes" alt="cartel">
+                                         <div class="card-body">
+                                       <p class="card-text">Cartel LED</p>
+                                        </div>
+                                        </div>
+                                       
+                        </div>
+                       
+                    </div>
+            </section>
+                    
+          </main>
+       <div class="container my-5">
     
-
-         
-                          
+        <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+               
       
+                <p>
+                    Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock.  Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.
+                </p>
       
+               
       
-         
-                
+                <div class="mt-4">
+                  <!-- Facebook -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-facebook-f"></i></a>
+                  <!-- Dribbble -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-instagram"></i></a>
+                  <!-- Twitter -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-twitter"></i></a>
+                  <!-- Google + -->
                   
-                    
-                    
-                
-                
-        
-        
-        </section>
-                
-          
+                </div>
+              </div>
+              <!--Grid column-->
       
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+         
       
-       
-    
-    
-
+                
+      
+                <ul class="fa-ul" style="margin-left: 1.65em;">
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+                  </li>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+                  </li>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+                  </li>
+                
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">Horarios de atencion</h5>
+      
+                <table class="table text-center text-white">
+                  <tbody class="font-weight-normal">
+                    <tr>
+                      <td>Lunes - Viernes:</td>
+                      <td>9am - 17pm</td>
+                    </tr>
+                    <tr>
+                      <td>sabados:</td>
+                      <td>9am - 13pm</td>
+                    </tr>
+                
+                    
+                  </tbody>
+                </table>
+              </div>
+              <!--Grid column-->
         
-   </main>
-   <footer class="footer">
-    
-    <div class="redes">
-        <div class="redes__copy">Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock. <br> Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.
-
-        </div>
-       
-        <div class="redes__icono">
-            <a href="https://facebook.com"><img  class="redes__icono1" src="../imagenes/iconoface.png" alt="facebook"></a>
-            <a href="https://instagram.com"><img class="redes__icono2" src="../imagenes/iconoinstagram.png" alt="instagram"></a>
-            <a href="https://twitter.com"><img  class="redes__icono3" src="../imagenes/iconotwitter.png" alt="twitter"></a>
-        </div>
-       
-    </div>
-    
-</footer>
-    
-</body>
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="../index.html">Muebleria Express </a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
+      </div>
+      <!-- End of .container -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
   
     
 </html>

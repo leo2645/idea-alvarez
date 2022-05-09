@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="imagenes/logo-icono.png">
-    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6a843029e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+    <link rel="icon" href="imagenes/logo-icono.png">
+    <link rel="stylesheet" href="./estilos/estilos.css">
     <title>Inicio</title>
 </head>
 
@@ -18,30 +21,44 @@
    
 
     <header>
-        <nav class="nav" >
-            <div class="contenedor">
-
-            <div class="logo" >
-                <a href="index.html"><img  class="logo__logo" src=imagenes/logoempresa.png alt="logo empresa"></a>
-            </div>
-            <div class="buscador">
-                <form  method="get" action="https://www.google.com/search" target="_blank">
-                <input class="buscador__recuadro" type="search" name="buscar" placeholder="Buscar producto" autofocus required>
-                <input class="buscador__boton" type="submit"> 
-                </form>
-            </div>
-            <div class="telefono">
-                 <a href="https://web.whatsapp.com/" ><img  class="redes__telefono--logowhatsapp" src="imagenes/whatsapp.png" alt="whatsapp"> </a>
-            </div>
-            <div class="registro">
-                <img class="tipito" src="imagenes/usuario.png"  alt="usuario"> <a class="registro__login" href="./paginas/login-registro.html">Login </a>
-                <a class="registro__registro" href="./paginas/login-registro.html">Registrarse</a>
-            </div>
-            <div class="secciones" >
-                <a  class="secciones__link" href="./paginas/equipamiento-comercial.html">Equipamiento comercial</a>
-                <a  class="secciones__link" href="./paginas/electrodomesticos.html">Electrodomesticos</a>
-                <a  class="secciones__link" href="./paginas/hogar-aire-libre.html">Hogar y aire libre</a>
-             </div>
+        <nav >
+            <div class="container ">
+                <nav class="navbar  navbar-expand-lg navbar-dark bg-dark col-12 ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand"  href="index.html"><img  class="logo__logo" src=imagenes/logoempresa.png alt="logo empresa"></href=></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./paginas/equipamiento-comercial.html">Equipamiento comercial</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./paginas/electrodomesticos.html">Electrodomesticos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./paginas/hogar-aire-libre.html">Hogar y aire libre</a>
+                          </li>
+                          <li class="nav-item">
+                             <a  class="nav-link" href="./paginas/login-registro.html">Login - Registro </a>
+                          
+                          </li>
+                         
+                        
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+                          <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+         
+            
             
 
              </div>
@@ -56,55 +73,113 @@
     <main>
         
         <section >
-            <div class="banner" >
-                <img  class="banner__imagen" src="imagenes/banner1.png" alt="entrega inmediata" >
-                <!--<img src="imagenes/super-ofertas" alt="super ofertas">
-                <img src="imagenes/imagenes-productos" alt="imagenes productos"> -->
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./imagenes/banner1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                    
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./imagenes/banner1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                         
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./imagenes/banner1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                       
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
+           
+        
+        
+          
             
-            <!--aqui van 2 flechas para seleccionar el cambio de imagen la cual tambien cambiara con el tiempo automaticamente-->
+            
         </section>
     <section>
         
             <div class="ofertas__destacadas1">
                 <h3 >Ofertas equipamiento para comercios</h3>
             </div>
-        
-      <div class="destacados">
-            
-
-
-            <div class="img1" >
-                     <img class="destacados__imagenes1" src="./imagenes/exhibidoravertical.png" alt="exhibidora vertical">
-                     <p class="texto">Exhibidoras</p>
-                     <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-           </div>
-            
-            <div class="img2">
-                     <img class="destacados__imagenes1" src="./imagenes/cortadora.png" alt="cortadora de fiambres">
-                     <p class="texto">Cortadoras</p>
-                     <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-            </div>    
-            <div class="img3">
-                     <img class="destacados__imagenes1" src="./imagenes/hornomultiple.png" alt="horno multiple">
-                     <p class="texto"> Hornos</p>
-                     <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-            </div>
-            <div class="img4" >
-                     <img class="destacados__imagenes1" src="./imagenes/freezer.png" alt="Freezer">
-                     <p class="texto">Freezers</p>
-                     <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-            </div>
-            <div class="img5" >
-                     <img class="destacados__imagenes1" src="./imagenes/freidora.png" alt="Freidora">
-                     <p class="texto">Freidoras</p>
-                     <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-            </div>
+            <div class="container mt-5 " >
+                <div class="row ofertas__centroytexto">
+                    <div class="card " style="width: 18rem;">
+                        <img src="./imagenes/exhibidoravertical.png" class="card-img-top ofertas__imagenes" alt="exhibidora vertical">
+                        <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                        <div class="card-body">
+                          
+                          <p class="card-text">Exhibidoras verticales Briket M5000 M4300 M3200</p>
+                        </div>
+                     
+                        <div class="card-body">
+                          <a href="./paginas/equipamiento-comercial.html" class="card-link">Exhibidoras</a>
+                         
+                        </div>
+                      </div><div class="card" style="width: 18rem;">
+                        <img src="./imagenes/freezer.png" class="card-img-top ofertas__imagenes" alt="Frezzer">
+                        <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                        <div class="card-body">
+                         
+                          <p class="card-text">Freezers Briket FR4500 FR3300 FR2500</p>
+                        </div>
+                      
+                        <div class="card-body">
+                          <a href="./paginas/equipamiento-comercial.html" class="card-link">Freezers</a>
+                         
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="./imagenes/cortadora.png" class="card-img-top ofertas__imagenes" alt="cortadora de fiambres">
+                        <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                        <div class="card-body">
                         
+                          <p class="card-text">Cortadora de fiambres FIORE 3300</p>
+                        </div>
+                       
+                        <div class="card-body">
+                          <a href="./paginas/equipamiento-comercial.html" class="card-link">Cortadoras de fiambres</a>
+                         
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="./imagenes/hornomultiple.png" class="card-img-top ofertas__imagenes" alt="horno multiple">
+                        <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                        <div class="card-body">
+                       
+                          <p class="card-text">Horno multiple 4 hornallas c/plancha y carlitera</p>
+                        </div>
+                       
+                        <div class="card-body">
+                          <a href="./paginas/equipamiento-comercial.html" class="card-link">Hornos</a>
+                         
+                        </div>
+                      </div>
+                </div>
+               
+            </div>
+            
 
-
-
-      </div>
             
               
                 
@@ -120,42 +195,62 @@
             <h3 >Ofertas electrodomesticos</h3>
         </div>
     
-  <div class="destacados">
-        
-
-
-        <div class="img1" >
-                 <img class="destacados__imagenes1" src="./imagenes/licuadora.png" alt=" licuadora">
-                 <p class="texto">Licuadoras</p>
-                 <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-       </div>
-        
-        <div class="img2">
-                 <img class="destacados__imagenes1" src="./imagenes/batidora.png" alt=" batidoras">
-                 <p class="texto">Batidoras</p>
-                 <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-        </div>    
-        <div class="img3">
-                 <img class="destacados__imagenes1" src="./imagenes/tostadora.png" alt="tostadoras ">
-                 <p class="texto"> Tostadoras</p>
-                 <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-        </div>
-        <div class="img4" >
-                 <img class="destacados__imagenes1" src="./imagenes/heladera.png" alt="heladeras">
-                 <p class="texto">Heladeras</p>
-                 <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-        </div>
-        <div class="img5" >
-                 <img class="destacados__imagenes1" src="./imagenes/horno.png" alt="horno">
-                 <p class="texto">Hornos</p>
-                 <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-        </div>
-                    
-
-
-
-  </div>
-        
+        <div class="container mt-5 " >
+            <div class="row ofertas__centroytexto">
+                <div class="card " style="width: 18rem;">
+                    <img src="./imagenes/heladeraneba.png" class="card-img-top ofertas__imagenes" alt="heladera">
+                    <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                    <div class="card-body">
+                 
+                      <p class="card-text">Heladera NEBA 360</p>
+                    </div>
+                 
+                    <div class="card-body">
+                      <a href="./paginas/electrodomesticos.html" class="card-link">Heladeras</a>
+                     
+                    </div>
+                  </div><div class="card" style="width: 18rem;">
+                    <img src="./imagenes/noblex50.png" class="card-img-top ofertas__imagenes" alt="televisores">
+                    <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                    <div class="card-body">
+                 
+                      <p class="card-text">Televisores 60" 50" 45" 32"</p>
+                    </div>
+                  
+                    <div class="card-body">
+                      <a href="./paginas/electrodomesticos.html" class="card-link">Televisores</a>
+                     
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./imagenes/cocinaultracomb.png" class="card-img-top ofertas__imagenes" alt="cocinas">
+                    <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                    <div class="card-body">
+                   
+                      <p class="card-text">Cocina ULTRACOMB acero inox.</p>
+                    </div>
+                   
+                    <div class="card-body">
+                      <a href="./paginas/electrodomesticos.html" class="card-link">Cocinas</a>
+                     
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./imagenes/m12.png" class="card-img-top ofertas__imagenes" alt="celular">
+                    <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                    <div class="card-body">
+                   
+                      <p class="card-text">Samsung M12</p>
+                    </div>
+                   
+                    <div class="card-body">
+                      <a href="./paginas/electrodomesticos.html" class="card-link">Celulares</a>
+                     
+                    </div>
+                  </div>
+            </div>
+           
+        </div>        
           
             
             
@@ -166,163 +261,249 @@
 </section>
 <section>
         
-    <div class="ofertas__destacadas3">
+    <div class="ofertas__destacadas3 ">
         <h3 >Ofertas hogar y aire libre</h3>
     </div>
 
-<div class="destacados">
-    
-
-
-    <div class="img1" >
-             <img class="destacados__imagenes1" src="./imagenes/mesaysillas.png" alt=" mesa y sillas">
-             <p class="texto">Mesa y sillas</p>
-             <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-   </div>
-    
-    <div class="img2">
-             <img class="destacados__imagenes1" src="./imagenes/ropero.png" alt=" ropero ">
-             <p class="texto">Roperos</p>
-             <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-    </div>    
-    <div class="img3">
-             <img class="destacados__imagenes1" src="./imagenes/racktv.png" alt="rack tv ">
-             <p class="texto"> Rack TV</p>
-             <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-    </div>
-    <div class="img4" >
-             <img class="destacados__imagenes1" src="./imagenes/sommier.png" alt="sommier">
-             <p class="texto">Sommiers</p>
-             <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-    </div>
-    <div class="img5" >
-             <img class="destacados__imagenes1" src="./imagenes/bicicleta.png" alt="biciletas">
-             <p class="texto">Bicicletas</p>
-             <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
-    </div>
+    <div class="container mt-5 " >
+        <div class="row ofertas__centroytexto">
+            <div class="card " style="width: 18rem;">
+                <img src="./imagenes/sommier.png" class="card-img-top ofertas__imagenes" alt="sommier">
+                <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                <div class="card-body">
+               
+                  <p class="card-text">Sommier 2 Plazas espuma alta densidad</p>
+                </div>
+             
+                <div class="card-body">
+                  <a href="./paginas/electrodomesticos.html" class="card-link">Sommiers</a>
+                 
+                </div>
+              </div><div class="card" style="width: 18rem;">
+                <img src="./imagenes/racktv.png" class="card-img-top ofertas__imagenes" alt="rack tv">
+                <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                <div class="card-body">
                 
-
-
-
-</div>
-<div class="marcasdestacadas">
-    <p>¡Marcas destacadas!</p>
-</div>
-<div class="marcas">
-    <div class="marcas__1 marcas__1--1">
-        <img class="marcas__imagen" src="./imagenes/briket.png"  alt="briket">
-        <p class="marcastexto">Briket</p>
-
-
-    </div>
-    <div class="marcas__1 marcas__1--2">
-        <img class="marcas__imagen" src="./imagenes/lavado.png"  alt="Drean">
-        <p class="marcastexto">Drean</p>
-
-
-    </div>
-    <div class="marcas__1 marcas__1--3">
-        <img  class="marcas__imagen"src="./imagenes/noblex.png"  alt="noblex">
-        <p class="marcastexto">Noblex</p>
-
-
-    </div>
-    <div class="marcas__1 marcas__1--4">
-        <img class="marcas__imagen"src="./imagenes/sommier.png"  alt="Bari">
-        <p class="marcastexto">Bari</p>
-    </div>
-    <div class="marcas__1 marcas__1--5">
-        <img class="marcas__imagen"src="./imagenes/samsung.png"   alt="Samsung">
-        <p class="marcastexto">Samsung</p>
-
-
-    </div>
-    <div class="marcas__1 marcas__1--6">
-        <img class="marcas__imagen"src="./imagenes/mosconi.png"  alt="mosconi">
-        <p class="marcastexto">Mosconi</p>
-
-
-    </div>
-    <div class="marcas__1 marcas__1--7">
-        <img class="marcas__imagen"src="./imagenes/ultracomb.png" alt="ultracomb">
-        <p class="marcastexto">Ultracomb</p>
-
-
-    </div>
-    <div class="marcas__1 marcas__1--8">
-        <img class="marcas__imagen"src="./imagenes/kretz.png"  alt="kretz">
-        <p class="marcastexto">Kretz</p>
-
-
-    </div>
-   
-</div>
-
-    
-      
-        
-        
-    
-    
-
-
-</section>
-    
-    <section>
-        <div class="servicios">
-            <div class="servicios__asesoramiento" >
-                <img class="servicios__imagenes" src="./imagenes/asesoramiento.png" alt="asesoramiento comercial">
-                <p  class="post__titulo">Asesoramiento comercial
-                </p>
-                <p class="descripcion__1">“Contamos con asesoramiento comercial gratuito, para que tu inversion se vea reflejada en el crecimiento tu comercio”
-
-                </p>
-            </div>
-            
-              
-                <div class="servicios__postventa" >
-                    <img class="servicios__imagenes" src="./imagenes/postaventa.png" alt="posta venta">
-                    <p class="post__titulo1" > Servicio post-venta
-                    </p>
-                    <p class="descripcion__2">
-                        “Concretar una venta es importante, pero lograr la fidelidad de los clientes es vital”
-                    </p>
+                  <p class="card-text">Rack TV flotante</p>
                 </div>
               
+                <div class="card-body">
+                  <a href="./paginas/electrodomesticos.html" class="card-link">Racks TV</a>
+                 
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/mesaysillas.png" class="card-img-top ofertas__imagenes" alt="mesa y sillas">
+                <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                <div class="card-body">
                 
-
-
-           
-            
-            
-           
+                  <p class="card-text">Juego de mesa y sillas chenille</p>
+                </div>
+               
+                <div class="card-body">
+                  <a href="./paginas/electrodomesticos.html" class="card-link">Mesas y sillas</a>
+                 
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/bajomesada.png" class="card-img-top ofertas__imagenes" alt="bajo mesada">
+                <img class="descuentos" src="./imagenes/descuentos.png" alt="descuento">
+                <div class="card-body">
+                 
+                  <p class="card-text">Bajo mesada</p>
+                </div>
+               
+                <div class="card-body">
+                  <a href="./paginas/electrodomesticos.html" class="card-link">Amoblamiento para cocina</a>
+                 
+                </div>
+              </div>
         </div>
-         <div>
-             
-         </div>
+       
+    </div>    
+</section>
+
+            
+
+
+<section >
+
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/bannermarcas1.png" class="d-block w-100" alt="marcas destacadas">
+                <div class="carousel-caption d-none d-md-block">
+            
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/bannermarcas2.png" class="d-block w-100" alt="marcas destacadas">
+                <div class="carousel-caption d-none d-md-block">
+                 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/bannermarcas3.png" class="d-block w-100" alt="marcas destacadas">
+                <div class="carousel-caption d-none d-md-block">
+               
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+   
+
+
+  
+    
+    
+</section>
+    <section>
+        <div class="container">
+
+           
+              
+            
+        </div>
+        <!-- <div class="servicios">
+                <div class="servicios__asesoramiento" >
+                    <img class="servicios__imagenes" src="./imagenes/asesoramiento.png" alt="asesoramiento comercial">
+                    <p  class="post__titulo">Asesoramiento comercial
+                    </p>
+                    <p class="descripcion__1">“Contamos con asesoramiento comercial gratuito, para que tu inversion se vea reflejada en el crecimiento tu comercio”
+    
+                    </p>
+                </div>
+                
+                  
+                    <div class="servicios__postventa" >
+                        <img class="servicios__imagenes" src="./imagenes/postaventa.png" alt="posta venta">
+                        <p class="post__titulo1" > Servicio post-venta
+                        </p>
+                        <p class="descripcion__2">
+                            “Concretar una venta es importante, pero lograr la fidelidad de los clientes es vital”
+                        </p>
+                    </div>
+                  
+                    
+    
+    
+               
+                
+                
+               
+            </div>
+
+        -->
+        
+        
 
 
 
     </section>
    
 </main>
-<footer class="footer">
+<div class="container my-5">
+
+    <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row mt-4">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+           
+  
+            <p>
+                Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock.  Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.
+            </p>
+  
+           
+  
+            <div class="mt-4">
+              <!-- Facebook -->
+              <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-facebook-f"></i></a>
+              <!-- Dribbble -->
+              <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-instagram"></i></a>
+              <!-- Twitter -->
+              <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-twitter"></i></a>
+              <!-- Google + -->
+              
+            </div>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+     
+  
+            
+  
+            <ul class="fa-ul" style="margin-left: 1.65em;">
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+              </li>
+            
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Horarios de atencion</h5>
+  
+            <table class="table text-center text-white">
+              <tbody class="font-weight-normal">
+                <tr>
+                  <td>Lunes - Viernes:</td>
+                  <td>9am - 17pm</td>
+                </tr>
+                <tr>
+                  <td>sabados:</td>
+                  <td>9am - 13pm</td>
+                </tr>
+            
+                
+              </tbody>
+            </table>
+          </div>
+          <!--Grid column-->
     
-        <div class="redes">
-            <div class="redes__copy">Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock. <br> Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.
-
-            </div>
-           
-            <div class="redes__icono">
-                <a href="https://facebook.com"><img  class="redes__icono1" src="./imagenes/iconoface.png" alt="facebook"></a>
-                <a href="https://instagram.com"><img class="redes__icono2" src="./imagenes/iconoinstagram.png" alt="instagram"></a>
-                <a href="https://twitter.com"><img  class="redes__icono3" src="./imagenes/iconotwitter.png" alt="twitter"></a>
-            </div>
-           
-        </div>
-        
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="./index.html">Muebleria Express </a>
+      </div>
+      <!-- Copyright -->
     </footer>
-
+    
+  </div>
+  <!-- End of .container -->
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 

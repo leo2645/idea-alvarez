@@ -1,242 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../imagenes/logo-icono.png">
-    <link rel="stylesheet" href="../estilos/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <title>Hogar y aire libre</title>
-</head>
-
-<body>
-    <header>
-        <nav class="nav" >
-            <div class="contenedor">
-
-            <div class="logo" >
-                <a href="../index.html"><img  class="logo__logo" src=../imagenes/logoempresa.png alt="logo empresa"></a>
-            </div>
-            <div class="buscador">
-                <form  method="get" action="https://www.google.com/search" target="_blank">
-                <input class="buscador__recuadro" type="search" name="buscar" placeholder="Buscar producto" autofocus required>
-                <input class="buscador__boton" type="submit"> 
-                </form>
-            </div>
-            <div class="telefono">
-                 <a href="https://web.whatsapp.com/" ><img  class="redes__telefono--logowhatsapp" src="../imagenes/whatsapp.png" alt="whatsapp"> </a>
-            </div>
-            <div class="registro">
-                <img class="tipito" src="../imagenes/usuario.png"  alt="usuario"> <a class="registro__login" href="login-registro.html">Login </a>
-                <a class="registro__registro" href="login-registro.html">Registrarse</a>
-            </div>
-            <div class="secciones">
-                <a  class="secciones__link" href="equipamiento-comercial.html">Equipamiento comercial</a>
-                <a  class="secciones__link" href="electrodomesticos.html">Electrodomesticos</a>
-                <a  class="secciones__link" href="hogar-aire-libre.html">Hogar y aire libre</a>
-             </div>
-             </div>
-         </nav>
-   
-    </header>
-    <main>
-        <section>
-            <div class="titulos2">
-                <h3 class="electrotitulo1"> Descanso</h3>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
-                <div class="destacados1">
-                    <div class="img1" >
-                        <img class="destacados__imagenes1" src="../imagenes/sommier1.png" alt=" sommier">
-                        <p class="texto">Sommier</p>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6a843029e5.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+        <link rel="icon" href="imagenes/logo-icono.png">
+        <link rel="stylesheet" href="../estilos/estilos.css">
+        <title>Hogar y aire libre</title>
+    </head>
+    <body>
+        <header>
+            <nav >
+                <div class="container ">
+                    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark col-12 ">
+                        <div class="container-fluid">
+                          <a class="navbar-brand"  href="index.html"><img  class="logo__logo" src="../imagenes/logoempresa.png" alt="logo empresa"></href=></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./equipamiento-comercial.html">Equipamiento comercial</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./electrodomesticos.html">Electrodomesticos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./hogar-aire-libre.html">Hogar y aire libre</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a  class="nav-link" href="./login-registro.html">Login - Registro </a>
+                              
+                              </li>
+                             
+                            
+                            </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+                              <button class="btn btn-outline-primary" type="submit">Buscar</button>
+                            </form>
+                          </div>
+                        </div>
+                      </nav>
+             
+                
+                
+    
+                 </div>
+                
+                   
+             </nav>
+       
+        </header>
+    
+        <main>
+    
+            <section>
+                <div class="titulos">
+                    <h3 class="electrotitulo1"> Descanso</h3>
+                </div>
+                <div class="container mt-5 " >
+                    <div class="row ofertas__centroytexto">
+                        <div class="card " style="width: 18rem;">
+                            <img src="../imagenes/sommier.png" class="card-img-top ofertas__imagenes" alt="sommier">
+                            <div class="card-body">
+                         <p class="card-text"> Sommier</p>
+                            </div>
+                         </div><div class="card" style="width: 18rem;">
+                            <img src="../imagenes/sommier1.png" class="card-img-top ofertas__imagenes" alt="sommier">
+                           <div class="card-body">
+                            <p class="card-text">Sommier</p>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/sommier2.png" class="card-img-top ofertas__imagenes" alt="sommier">
+                           <div class="card-body">
+                           <p class="card-text"> Sommier</p>
+                            </div>
+                           </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/sommier3.png" class="card-img-top ofertas__imagenes" alt="sommier">
+                             <div class="card-body">
+                           <p class="card-text"> Sommier</p>
+                            </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/sommier4.png" class="card-img-top ofertas__imagenes" alt="sommier">
+                                 <div class="card-body">
+                               <p class="card-text">Sommier</p>
+                                </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../imagenes/colchon.png" class="card-img-top ofertas__imagenes" alt="colchon">
+                                     <div class="card-body">
+                                   <p class="card-text">Colchon</p>
+                                    </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../imagenes/colchon1.png" class="card-img-top ofertas__imagenes" alt="colchon">
+                                         <div class="card-body">
+                                       <p class="card-text">Colchon</p>
+                                        </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="../imagenes/colchon2.png" class="card-img-top ofertas__imagenes" alt="colchon">
+                                             <div class="card-body">
+                                           <p class="card-text">Colchon</p>
+                                            </div>
+                                            </div>
                     </div>
-                    <div class="img2">
-                        <img class="destacados__imagenes1" src="../imagenes/sommier2.png" alt=" sommier">
-                        <p class="texto">Sommier</p>
-                    </div>    
-                    <div class="img3">
-                        <img class="destacados__imagenes1" src="../imagenes/sommier3.png" alt="sommier ">
-                        <p class="texto"> Sommier </p>
+                   
+                </div>     
+                <div class="titulos">
+                    <h3 class="electrotitulo2"> Bicicletas </h3>
+                </div>
+                <div class="container mt-5 " >
+                    <div class="row ofertas__centroytexto">
+                        <div class="card " style="width: 18rem;">
+                            <img src="../imagenes/bicicleta.png" class="card-img-top ofertas__imagenes" alt="bicicleta">
+                            <div class="card-body">
+                         <p class="card-text">Bicicleta"</p>
+                            </div>
+                         </div><div class="card" style="width: 18rem;">
+                            <img src="../imagenes/bicicleta1.png" class="card-img-top ofertas__imagenes" alt="bicicleta">
+                           <div class="card-body">
+                            <p class="card-text">Bicicleta</p>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/bicicleta2.png" class="card-img-top ofertas__imagenes" alt="bicicleta">
+                           <div class="card-body">
+                           <p class="card-text">Bicicleta</p>
+                            </div>
+                           </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/bicicleta3.png" class="card-img-top ofertas__imagenes" alt="bicicleta">
+                             <div class="card-body">
+                           <p class="card-text">Bicicleta</p>
+                            </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/bicileta3.png" class="card-img-top ofertas__imagenes" alt="bicicleta">
+                                 <div class="card-body">
+                               <p class="card-text">Bicicleta</p>
+                                </div>
+                                </div>
+                               
                     </div>
-                    <div class="img4" >
-                        <img class="destacados__imagenes1" src="../imagenes/sommier4.png" alt="sommier">
-                        <p class="texto">Sommier</p>
-                    </div>
-                     <div class="img5" >
-                        <img class="destacados__imagenes1" src="../imagenes/colchon.png" alt="colchon">
-                        <p class="texto">Colchon</p>
-                    </div>
-                    <div class="img6" >
-                        <img class="destacados__imagenes1" src="../imagenes/colchon1.png" alt=" colchon">
-                        <p class="texto">Colchon</p>
-                    </div>
-                    <div class="img7">
-                        <img class="destacados__imagenes1" src="../imagenes/colchon2.png" alt=" colchon">
-                        <p class="texto">Colchon</p>
-                    </div>    
-                    <div class="img8">
-                        <img class="destacados__imagenes1" src="../imagenes/colchon4.png" alt="colchon ">
-                        <p class="texto"> Colchon</p>
-                    </div>
-                    
-                    </div>
-          
-           
+                   
+                </div>   
+                 
             <div class="titulos">
-                <h3 class="electrotitulo2"> Bicicletas </h3>
-            </div>
-            
-            <div class="destacados2">
-            <div class="img1" >
-                <img class="destacados__imagenes1" src="../imagenes/bicicleta.png" alt=" bicicleta">
-                <p class="texto">Bicicleta</p>
-            </div>
-           
-            <div class="img2">
-                <img class="destacados__imagenes1" src="../imagenes/bicicleta1.png" alt=" bicicleta">
-                <p class="texto">Bicicleta</p>
-           </div>    
-           <div class="img3">
-                <img class="destacados__imagenes1" src="../imagenes/bicicleta2.png" alt="bicicleta ">
-                <p class="texto"> Bicicleta </p>
-           </div>
-           <div class="img4" >
-                <img class="destacados__imagenes1" src="../imagenes/bicicleta3.png" alt="bicicleta">
-                <p class="texto">Bicicleta</p>
-           </div>
-           <div class="img5" >
-                <img class="destacados__imagenes1" src="../imagenes/bicileta3.png" alt="bicicleta">
-                <p class="texto">Bicicleta</p>
-           </div>
-           
+                <h3 class="electrotitulo3"> Amoblamiento </h3>
+                </div>  
+                <div class="container mt-5 " >
+                    <div class="row ofertas__centroytexto">
+                        <div class="card " style="width: 18rem;">
+                            <img src="../imagenes/ropero.png" class="card-img-top ofertas__imagenes" alt="Ropero">
+                            <div class="card-body">
+                         <p class="card-text">Ropero"</p>
+                            </div>
+                         </div><div class="card" style="width: 18rem;">
+                            <img src="../imagenes/ropero1.png" class="card-img-top ofertas__imagenes" alt="ropero">
+                           <div class="card-body">
+                            <p class="card-text">Ropero</p>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/mesadeluz.png" class="card-img-top ofertas__imagenes" alt="mesadeluz">
+                           <div class="card-body">
+                           <p class="card-text">Mesa de luz</p>
+                            </div>
+                           </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="../imagenes/mesadeluz1.png" class="card-img-top ofertas__imagenes" alt="mesadeluz">
+                             <div class="card-body">
+                           <p class="card-text">Mesa de luz</p>
+                            </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/mesaysillas.png" class="card-img-top ofertas__imagenes" alt="mesa y sillas">
+                                 <div class="card-body">
+                               <p class="card-text">Mesa y sillas </p>
+                                </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../imagenes/mesaysillas1.png" class="card-img-top ofertas__imagenes" alt="mesa y sillas">
+                                     <div class="card-body">
+                                   <p class="card-text">Mesa y sillas</p>
+                                    </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../imagenes/sillas.png" class="card-img-top ofertas__imagenes" alt="sillas">
+                                         <div class="card-body">
+                                       <p class="card-text">Sillas</p>
+                                        </div>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="../imagenes/sillas1.png" class="card-img-top ofertas__imagenes" alt="sillas">
+                                             <div class="card-body">
+                                           <p class="card-text">Sillas</p>
+                                            </div>
+                                            </div>
+                    </div>
+                   
+                </div>  
+                <div class="titulos">
+                    <h3 class="electrotitulo4"> Herramientas </h3>
+                    </div>
+                    <div class="container mt-5 " >
+                        <div class="row ofertas__centroytexto">
+                            <div class="card " style="width: 18rem;">
+                                <img src="../imagenes/herramientas.png" class="card-img-top ofertas__imagenes" alt="herramientas">
+                                <div class="card-body">
+                             <p class="card-text">Kit maletin"</p>
+                                </div>
+                             </div><div class="card" style="width: 18rem;">
+                                <img src="../imagenes/taladro.png" class="card-img-top ofertas__imagenes" alt="taladro">
+                               <div class="card-body">
+                                <p class="card-text">Taladro</p>
+                                </div>
+                              </div>
+                              <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/cicular.png" class="card-img-top ofertas__imagenes" alt="circular">
+                               <div class="card-body">
+                               <p class="card-text">Sierra circular</p>
+                                </div>
+                               </div>
+                              <div class="card" style="width: 18rem;">
+                                <img src="../imagenes/turbo.png" class="card-img-top ofertas__imagenes" alt="turbo">
+                                 <div class="card-body">
+                               <p class="card-text">Turbo</p>
+                                </div>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="../imagenes/caladora.png" class="card-img-top ofertas__imagenes" alt="caladora">
+                                     <div class="card-body">
+                                   <p class="card-text">Caladora </p>
+                                    </div>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="../imagenes/soldadora.png" class="card-img-top ofertas__imagenes" alt="soldadora">
+                                         <div class="card-body">
+                                       <p class="card-text">Soldadora</p>
+                                        </div>
+                                        </div>
+                                       
+                        </div>
+                       
+                    </div>
+            </section>
+                    
+          </main>
+       <div class="container my-5">
+    
+        <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+          <!-- Grid container -->
+          <div class="container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+               
       
-                          
-        </div>
-        
-        <div class="titulos">
-            <h3 class="electrotitulo3"> Amoblamiento </h3>
-            </div>
-         
-            <div class="destacados2">
-
-        
-
-                <div class="img1" >
-                    <img class="destacados__imagenes1" src="../imagenes/ropero.png" alt=" ropero">
-                    <p class="texto">Ropero</p>
-          </div>
-           
-           <div class="img2">
-                    <img class="destacados__imagenes1" src="../imagenes/ropero1.png" alt=" ropero ">
-                    <p class="texto">Ropero</p>
-           </div>    
-           <div class="img3">
-                    <img class="destacados__imagenes1" src="../imagenes/mesadeluz.png" alt="mesa de luz ">
-                    <p class="texto"> Mesa de luz </p>
-           </div>
-           <div class="img4" >
-                    <img class="destacados__imagenes1" src="../imagenes/mesadeluz1.png" alt="mesa de luz">
-                    <p class="texto"> Mesa de luz </p>
-           </div>
-           <div class="img5" >
-                    <img class="destacados__imagenes1" src="../imagenes/mesaysillas.png" alt="mesa y sillas">
-                    <p class="texto">Mesa y sillas</p>
-           </div>
-           <div class="img6">
-            <img class="destacados__imagenes1" src="../imagenes/mesaysillas1.png" alt="mesa y sillas ">
-            <p class="texto"> Mesa y sillas</p>
-   </div>
-   <div class="img7" >
-            <img class="destacados__imagenes1" src="../imagenes/sillas.png" alt="sillas">
-            <p class="texto"> Sillas </p>
-   </div>
-   <div class="img8" >
-            <img class="destacados__imagenes1" src="../imagenes/sillas1.png" alt="sillas">
-            <p class="texto">Sillas</p>
-   </div>
-           
+                <p>
+                    Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock.  Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.
+                </p>
       
-                          
-        </div>
-        
-        <div class="titulos">
-            <h3 class="electrotitulo4"> Herramientas</h3>
-            </div>
-         
-            <div class="destacados2">
-
-        
-
-                <div class="img1" >
-                    <img class="destacados__imagenes1" src="../imagenes/herramientas.png" alt=" herramientas">
-                    <p class="texto">Herramientas</p>
-          </div>
-           
-           <div class="img2">
-                    <img class="destacados__imagenes1" src="../imagenes/taladro.png" alt=" taladro ">
-                    <p class="texto">Taladro</p>
-           </div>    
-           <div class="img3">
-                    <img class="destacados__imagenes1" src="../imagenes/cicular.png" alt="circular ">
-                    <p class="texto"> Sierra circular </p>
-           </div>
-           <div class="img4" >
-                    <img class="destacados__imagenes1" src="../imagenes/caladora.png" alt="caladora">
-                    <p class="texto"> Caladora </p>
-           </div>
-           <div class="img5" >
-                    <img class="destacados__imagenes1" src="../imagenes/soldadora.png" alt="soldadora">
-                    <p class="texto">Soldadora</p>
-           </div>
-   
-   
-           
+               
       
-                          
-        </div>  
-      
-      
-      
-         
-                
+                <div class="mt-4">
+                  <!-- Facebook -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-facebook-f"></i></a>
+                  <!-- Dribbble -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-instagram"></i></a>
+                  <!-- Twitter -->
+                  <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-twitter"></i></a>
+                  <!-- Google + -->
                   
-                    
-                    
-                
-                
-        
-        
-        </section>
-                
-          
+                </div>
+              </div>
+              <!--Grid column-->
       
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+         
       
-       
-    
-    
-
+                
+      
+                <ul class="fa-ul" style="margin-left: 1.65em;">
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+                  </li>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+                  </li>
+                  <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+                  </li>
+                
+                </ul>
+              </div>
+              <!--Grid column-->
+      
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-4">Horarios de atencion</h5>
+      
+                <table class="table text-center text-white">
+                  <tbody class="font-weight-normal">
+                    <tr>
+                      <td>Lunes - Viernes:</td>
+                      <td>9am - 17pm</td>
+                    </tr>
+                    <tr>
+                      <td>sabados:</td>
+                      <td>9am - 13pm</td>
+                    </tr>
+                
+                    
+                  </tbody>
+                </table>
+              </div>
+              <!--Grid column-->
         
-   </main>
-   <footer>
-    
-    <div class="redes">
-        <div class="redes__copy">Las fotos son a modo ilustrativo. La venta de cualquiera de los productos publicados está sujeta a la verificación de stock. <br> Las especificaciones técnicas y descripciones están sujetas a cambios sin previo aviso.
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="../index.html">Muebleria Express </a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
+      </div>
+      <!-- End of .container -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
 
-        </div>
-       
-        <div class="redes__icono">
-            <a href="https://facebook.com"><img  class="redes__icono1" src="../imagenes/iconoface.png" alt="facebook"></a>
-            <a href="https://instagram.com"><img class="redes__icono2" src="../imagenes/iconoinstagram.png" alt="instagram"></a>
-            <a href="https://twitter.com"><img  class="redes__icono3" src="../imagenes/iconotwitter.png" alt="twitter"></a>
-        </div>
-       
-    </div>
-    
-</footer>
-    
-</body>
 
 </html>
