@@ -21,7 +21,13 @@ body {
 }
 
 
-
+    
+    body {
+      background-color: #f1f1f1;
+    }
+  
+  
+  
    
 .logo__logo {
     width: 120px;
@@ -109,7 +115,7 @@ body {
     height: 150px;
     width: 150px;
     object-fit: contain;
-    background-color:lightgrey;
+    
     
 
     
@@ -221,58 +227,7 @@ object-fit: cover;
 
 /*aqui comienza la pagina login y registro*/
 
-.registrogrid {
-    display: grid;
-    grid-template-columns:  repeat(2, fr);
-    grid-template-rows: repeat(8, fr); 
-    margin: auto;
-    transform: translateY(150px);
-    width: 80%;
-    justify-content: center;
-    text-align: center;
-   
-}
 
-.tituloreg {
-    
-    text-align: center;
-}
-.tituloreg1 {
-   
-}
-.logingrid {
-    justify-content: center;
-}
-.login {
-    margin-top: 25px;
-  
-    justify-content: center;
-}
-
-.login__usuario {
-    justify-content: center;
-
-   
-}
-
-.login__contraseña {
- 
-  
-}
-
-.login__contraseña1 {
-    
-}
-
-
-
-.enviar {
-   
-    
-}
-.separacion {
-    margin-top: 20px;
-}
 
 
 /* MEDIAQUERY*/
