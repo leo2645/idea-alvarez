@@ -9,11 +9,7 @@ body {
     
 
 }
-.header {
 
-
-    
-}
 
 .cover {
     object-fit: cover;
@@ -21,10 +17,7 @@ body {
 }
 
 
-    
-    body {
-      background-color: #f1f1f1;
-    }
+   
   
   
   
@@ -43,27 +36,6 @@ body {
 
 
 
-
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-
-    margin: auto;
-  
-}
-
-.banner__imagen {
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    object-fit: contain;
-    
-
-   
-  
-}
    
 .ofertas__destacadas1 {
     font-size: 16px;
@@ -137,7 +109,6 @@ body {
 }
 
 
- 
 .marcas {
     text-align: center;
     font-size: 2rem;
