@@ -120,7 +120,11 @@ body {
 
     
 }
-
+.link {
+    text-decoration: none;
+    padding-top: 0;
+    
+}
 .texto {
     text-align: center;
      margin-top: 5px;
@@ -134,39 +138,50 @@ body {
 
 
  
-
- .servicios {
-    height: 240px;
-    font-size: 15px;
-    font-style: italic;
-    margin: auto;
-    margin-top: 20px;
-    gap: 5px;
-
+.marcas {
+    text-align: center;
+    font-size: 2rem;
+}
+.focus-in-contract-bck {
+	-webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+	        animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
 }
 
-.servicios__asesoramiento {
-    height: 180px;
-    width: 50%;
-    background-color: black;
-    position: relative;
-}
-
-.servicios__postventa {
-    height: 180px;
-    width: 50%;
-    background-color: black;
-    position: relative;
-}
-
-.servicios__imagenes {
-    width: 50%;
-    height: 180px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-object-fit: cover;
-} 
-
-
+ @-webkit-keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
 
 
 /* aqui comienza el footer*/
