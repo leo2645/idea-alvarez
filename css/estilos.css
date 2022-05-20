@@ -19,10 +19,9 @@ body {
 
    
   
-  
-  
+.nav
    
-.logo__logo {
+.nav__logo {
     width: 120px;
     height: 50px;
     margin-top: 10px;
@@ -157,9 +156,9 @@ body {
 
 /* aqui comienza el footer*/
 
-.politicas {
-    font-size: small;
-    padding-top: 1rem;
+.copy {
+        color: darkgray;
+    
 }
 
 /* aqui termina el index*/
