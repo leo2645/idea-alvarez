@@ -10,7 +10,15 @@ body {
 
 }
 
-
+.h1 {
+        text-align: center;
+        color: crimson;
+        font-size: 2rem;
+        padding: 0;
+}
+.if {
+ color: solid;
+}
 .cover {
     object-fit: cover;
     height: 100%;
