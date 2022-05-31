@@ -1,94 +1,152 @@
-@media (max-width: 1023) {
-    .marcas {
-        text-align: center;
-        font-size: 1.5rem;
+@media (max-width: 1023px) {
+        .marcas {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .h1 {
+            font-size: 2rem;
     }
-    .focus-in-contract-bck {
-        -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-                animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    .ofertas__destacadas1 {
+            font-size: 16px;
+    
+    }
+    .ofertas__destacadas2 {
+            font-size: 16px;
+    
+    }
+    .ofertas__destacadas3 {
+            font-size: 16px;
+    
     }
     
-     @-webkit-keyframes focus-in-contract-bck {
-        0% {
-          letter-spacing: 1em;
-          -webkit-transform: translateZ(300px);
-                  transform: translateZ(300px);
-          -webkit-filter: blur(12px);
-                  filter: blur(12px);
-          opacity: 0;
-        }
-        100% {
-          -webkit-transform: translateZ(12px);
-                  transform: translateZ(12px);
-          -webkit-filter: blur(0);
-                  filter: blur(0);
-          opacity: 1;
-        }
-      }
-      @keyframes focus-in-contract-bck {
-        0% {
-          letter-spacing: 1em;
-          -webkit-transform: translateZ(300px);
-                  transform: translateZ(300px);
-          -webkit-filter: blur(12px);
-                  filter: blur(12px);
-          opacity: 0;
-        }
-        100% {
-          -webkit-transform: translateZ(12px);
-                  transform: translateZ(12px);
-          -webkit-filter: blur(0);
-                  filter: blur(0);
-          opacity: 1;
-        }
-      }
-      
-}
-
-
-@media (max-width: 600) {
-    .marcas {
-        text-align: center;
-        font-size: 0.5rem;
+    .electrotitulo1 {
+            font-size: 16px;
     }
-    .focus-in-contract-bck {
-        -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
-                animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    .electrotitulo2{
+            font-size: 16px;
+    }
+    .electrotitulo3 {
+            font-size: 16px;
+    }
+    .electrotitulo4 {
+            font-size: 16px;
     }
     
-     @-webkit-keyframes focus-in-contract-bck {
-        0% {
-          letter-spacing: 1em;
-          -webkit-transform: translateZ(300px);
-                  transform: translateZ(300px);
-          -webkit-filter: blur(12px);
-                  filter: blur(12px);
-          opacity: 0;
+    
+    
+        .focus-in-contract-bck {
+            -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+                    animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
         }
-        100% {
-          -webkit-transform: translateZ(12px);
-                  transform: translateZ(12px);
-          -webkit-filter: blur(0);
-                  filter: blur(0);
-          opacity: 1;
+        
+         @-webkit-keyframes focus-in-contract-bck {
+            0% {
+              letter-spacing: 1em;
+              -webkit-transform: translateZ(300px);
+                      transform: translateZ(300px);
+              -webkit-filter: blur(12px);
+                      filter: blur(12px);
+              opacity: 0;
+            }
+            100% {
+              -webkit-transform: translateZ(12px);
+                      transform: translateZ(12px);
+              -webkit-filter: blur(0);
+                      filter: blur(0);
+              opacity: 1;
+            }
+          }
+          @keyframes focus-in-contract-bck {
+            0% {
+              letter-spacing: 1em;
+              -webkit-transform: translateZ(300px);
+                      transform: translateZ(300px);
+              -webkit-filter: blur(12px);
+                      filter: blur(12px);
+              opacity: 0;
+            }
+            100% {
+              -webkit-transform: translateZ(12px);
+                      transform: translateZ(12px);
+              -webkit-filter: blur(0);
+                      filter: blur(0);
+              opacity: 1;
+            }
+          }
+          
+    }
+    
+    
+    @media (max-width: 600px) {
+        .marcas {
+            text-align: center;
+            font-size: 0.5rem;
         }
-      }
-      @keyframes focus-in-contract-bck {
-        0% {
-          letter-spacing: 1em;
-          -webkit-transform: translateZ(300px);
-                  transform: translateZ(300px);
-          -webkit-filter: blur(12px);
-                  filter: blur(12px);
-          opacity: 0;
+        .h1 {
+                font-size: 1rem;
         }
-        100% {
-          -webkit-transform: translateZ(12px);
-                  transform: translateZ(12px);
-          -webkit-filter: blur(0);
-                  filter: blur(0);
-          opacity: 1;
+        .ofertas__destacadas1 {
+            font-size: 12px;
+    
+    }
+    .ofertas__destacadas2 {
+            font-size: 12px;
+    
+    }
+    .ofertas__destacadas3 {
+            font-size: 12px;
+    
+    }
+    .electrotitulo1 {
+            font-size: 12px;
+    }
+    .electrotitulo2{
+            font-size: 12px;
+    }
+    .electrotitulo3 {
+            font-size: 12px;
+    }
+    .electrotitulo4 {
+            font-size: 12px;
+    }
+        .focus-in-contract-bck {
+            -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+                    animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
         }
-      }
-      
-}
+        
+         @-webkit-keyframes focus-in-contract-bck {
+            0% {
+              letter-spacing: 1em;
+              -webkit-transform: translateZ(300px);
+                      transform: translateZ(300px);
+              -webkit-filter: blur(12px);
+                      filter: blur(12px);
+              opacity: 0;
+            }
+            100% {
+              -webkit-transform: translateZ(12px);
+                      transform: translateZ(12px);
+              -webkit-filter: blur(0);
+                      filter: blur(0);
+              opacity: 1;
+            }
+          }
+          @keyframes focus-in-contract-bck {
+            0% {
+              letter-spacing: 1em;
+              -webkit-transform: translateZ(300px);
+                      transform: translateZ(300px);
+              -webkit-filter: blur(12px);
+                      filter: blur(12px);
+              opacity: 0;
+            }
+            100% {
+              -webkit-transform: translateZ(12px);
+                      transform: translateZ(12px);
+              -webkit-filter: blur(0);
+                      filter: blur(0);
+              opacity: 1;
+            }
+          }
+          
+    }

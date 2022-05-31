@@ -12,9 +12,10 @@ body {
 
 .h1 {
         text-align: center;
-        color: crimson;
+        color: rgb(24, 15, 145);
         font-size: 2rem;
         padding: 0;
+        margin-top: 1rem;
 }
 .if {
  color: solid;
@@ -27,7 +28,7 @@ body {
 
    
   
-.nav
+
    
 .nav__logo {
     width: 120px;
@@ -218,17 +219,48 @@ body {
 
 
 
-/*aqui comienza la pagina login y registro*/
+
 
 
 
 
 /* MEDIAQUERY*/
-@media (max-width: 1023) {
+@media (max-width: 1023px) {
     .marcas {
         text-align: center;
         font-size: 1.5rem;
     }
+    .h1 {
+        font-size: 2rem;
+}
+.ofertas__destacadas1 {
+        font-size: 16px;
+
+}
+.ofertas__destacadas2 {
+        font-size: 16px;
+
+}
+.ofertas__destacadas3 {
+        font-size: 16px;
+
+}
+
+.electrotitulo1 {
+        font-size: 16px;
+}
+.electrotitulo2{
+        font-size: 16px;
+}
+.electrotitulo3 {
+        font-size: 16px;
+}
+.electrotitulo4 {
+        font-size: 16px;
+}
+
+
+
     .focus-in-contract-bck {
         -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
                 animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
@@ -272,11 +304,38 @@ body {
 }
 
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
     .marcas {
         text-align: center;
         font-size: 0.5rem;
     }
+    .h1 {
+            font-size: 1rem;
+    }
+    .ofertas__destacadas1 {
+        font-size: 12px;
+
+}
+.ofertas__destacadas2 {
+        font-size: 12px;
+
+}
+.ofertas__destacadas3 {
+        font-size: 12px;
+
+}
+.electrotitulo1 {
+        font-size: 12px;
+}
+.electrotitulo2{
+        font-size: 12px;
+}
+.electrotitulo3 {
+        font-size: 12px;
+}
+.electrotitulo4 {
+        font-size: 12px;
+}
     .focus-in-contract-bck {
         -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
                 animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
