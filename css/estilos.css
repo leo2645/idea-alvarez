@@ -6,9 +6,13 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url(../imagenes/cool-background.png);
+    
+    
     
 
 }
+
 
 .h1 {
         text-align: center;
@@ -20,6 +24,13 @@ body {
 .if {
  color: solid;
 }
+.hit-the-floor {
+        color: #fff;
+        font-size: 2em;
+        font-weight: bold;
+        font-family: Helvetica;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+        }
 .cover {
     object-fit: cover;
     height: 100%;
@@ -38,7 +49,8 @@ body {
 }
 
 
-      
+
+
 
 
 
@@ -95,6 +107,7 @@ body {
     height: 150px;
     width: 150px;
     object-fit: contain;
+    padding-top: 15px;
     
     
 
@@ -114,6 +127,7 @@ body {
     position: absolute;
     top: 0;
     left: 20%;
+    padding-top: 5px;
 }
 
 
@@ -163,14 +177,7 @@ body {
   
 
 
-/* aqui comienza el footer*/
 
-.copy {
-        color: darkgray;
-    
-}
-
-/* aqui termina el index*/
 
 /*aqui comienza la pagina electrpdpmesticos*/
 
@@ -179,18 +186,18 @@ body {
     text-align: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    
+    font-size: 16px;
 }
 
 .electrotitulo2 {
- 
+        font-size: 16px;
     text-align: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black; 
 }
     
 .electrotitulo3 {
-     
+        font-size: 16px;
     text-align: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black; 
@@ -201,6 +208,7 @@ body {
     text-align: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black; 
+    font-size: 16px;
 }
 
 .titulos {
