@@ -265,6 +265,7 @@ body {
         font-size: 18px;
         line-height: 26px;
         font-weight: 400;
+        
       }
       .contact-form .input-text:focus {
         outline: none;
@@ -287,6 +288,7 @@ body {
         transition: transform .2s ease-in-out;
         transition: transform .2s ease-in-out, 
         -webkit-transform .2s ease-in-out;
+        
       }
       .contact-form .submit-btn {
         display: inline-block;
@@ -458,6 +460,9 @@ body {
                   filter: blur(0);
           opacity: 1;
         }
+      }
+      .get-in-touch .title {
+              font-size: 1em;
       }
       
 }
