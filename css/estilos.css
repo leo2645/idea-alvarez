@@ -6,7 +6,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url(../imagenes/Hexan.svg);
+  
     
     
     
@@ -27,7 +27,7 @@ body {
  color: solid;
 }
 .hit-the-floor {
-        color: #fff;
+        color: rgb(141, 20, 20);
         font-size: 3em;
         font-weight: bold;
         font-family: Helvetica;
@@ -102,6 +102,14 @@ body {
     justify-content: center;
     text-align: center;
     
+}
+.precios {
+        color: white;
+        background-color: red;
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+       
 }
 
 .ofertas__imagenes{
