@@ -6,31 +6,16 @@
         .h1 {
             font-size: 2rem;
     }
-    .ofertas__destacadas1 {
-            font-size: 16px;
-    
-    }
-    .ofertas__destacadas2 {
-            font-size: 16px;
-    
-    }
-    .ofertas__destacadas3 {
+    .ofertas__destacadas {
             font-size: 16px;
     
     }
     
-    .electrotitulo1 {
+    
+    .electrotitulo {
             font-size: 16px;
     }
-    .electrotitulo2{
-            font-size: 16px;
-    }
-    .electrotitulo3 {
-            font-size: 16px;
-    }
-    .electrotitulo4 {
-            font-size: 16px;
-    }
+    
     
     
     
@@ -80,35 +65,20 @@
     @media (max-width: 600px) {
         .marcas {
             text-align: center;
-            font-size: 0.5rem;
+            font-size: 1rem;
         }
         .h1 {
-                font-size: 1rem;
+                font-size: 1.5rem;
         }
-        .ofertas__destacadas1 {
-            font-size: 12px;
+        .ofertas__destacadas {
+            font-size: 14px;
     
     }
-    .ofertas__destacadas2 {
-            font-size: 12px;
     
+    .electrotitulo {
+            font-size: 14px;
     }
-    .ofertas__destacadas3 {
-            font-size: 12px;
     
-    }
-    .electrotitulo1 {
-            font-size: 12px;
-    }
-    .electrotitulo2{
-            font-size: 12px;
-    }
-    .electrotitulo3 {
-            font-size: 12px;
-    }
-    .electrotitulo4 {
-            font-size: 12px;
-    }
         .focus-in-contract-bck {
             -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
                     animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
@@ -148,5 +118,9 @@
               opacity: 1;
             }
           }
+          .get-in-touch .title {
+                  font-size: 1em;
+          }
           
     }
+    

@@ -6,14 +6,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-  
-    
-    
-    
-    
-
 }
-
 
 .h1 {
         text-align: center;
@@ -21,30 +14,25 @@ body {
         font-size: 2rem;
         padding: 0;
         margin-top: 1rem;
-        
 }
+
 .if {
  color: solid;
 }
+
 .hit-the-floor {
         color: rgb(141, 20, 20);
-        font-size: 3em;
+        font-size: 2em;
         font-weight: bold;
         font-family: Helvetica;
         text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-        }
-.cover {
-    object-fit: cover;
-    height: 100%;
 }
 
 
-   
-  .nav {border-bottom: 1px solid rgba(67, 64, 64, 0.541);
 
-  }
+.nav {border-bottom: 1px solid rgba(67, 64, 64, 0.541);
+}
 
-   
 .nav__logo {
     width: 120px;
     height: 50px;
@@ -52,20 +40,10 @@ body {
     margin-left: 35px;
 }
 
-
-
-
-
-
-
-
-
-   
-.ofertas__destacadas1 {
+.ofertas__destacadas {
     font-size: 16px;
     text-transform: uppercase;
     text-align: center;
-    
     color: white;
     background: rgb(2,0,36);
     width: 55%;
@@ -73,66 +51,28 @@ body {
     margin-top: 20px;
 }
  
-.ofertas__destacadas2 {
-    font-size: 16px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    color: white;
-    background: rgb(2,0,36);
-    width: 55%;
-    
-}
- 
-.ofertas__destacadas3 {
-    font-size: 16px;
-    text-transform: uppercase;
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    color: white;
-    background: rgb(2,0,36);
-    width: 55%;
-    
-}
- 
 
+ 
 .ofertas__centroytexto {
     justify-content: center;
     text-align: center;
-    
 }
+
 .precios {
         color: white;
         background-color: red;
         text-align: center;
         width: fit-content;
         margin: auto;
-       
 }
 
 .ofertas__imagenes{
- 
     display: flex;
     margin: auto;
     height: 150px;
     width: 150px;
     object-fit: contain;
     padding-top: 15px;
-    
-    
-
-    
-}
-.link {
-    text-decoration: none;
-    padding-top: 0;
-    
-}
-.texto {
-    text-align: center;
-     margin-top: 5px;
 }
 
 .descuentos {
@@ -142,11 +82,11 @@ body {
     padding-top: 5px;
 }
 
-
 .marcas {
     text-align: center;
     font-size: 2rem;
 }
+
 .focus-in-contract-bck {
 	-webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
 	        animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
@@ -187,41 +127,13 @@ body {
     }
   }
   
-
-
-
-
-/*aqui comienza la pagina electrpdpmesticos*/
-
-.electrotitulo1 {
-        
+.electrotitulo {
     text-align: center;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     font-size: 16px;
 }
 
-.electrotitulo2 {
-        font-size: 16px;
-    text-align: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black; 
-}
-    
-.electrotitulo3 {
-        font-size: 16px;
-    text-align: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black; 
-}
-
-.electrotitulo4 {
-     margin-top: 20px;
-    text-align: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black; 
-    font-size: 16px;
-}
 
 .titulos {
     font-size: 16px;
@@ -230,21 +142,17 @@ body {
     width: 50%;
     color: white;
     background: rgb(2,0,36);
-   
     margin: auto;
     margin-top: 20px;
   }
  
-
-
-
-  .get-in-touch {
+.get-in-touch {
         max-width: 800px;
         margin: 50px auto;
-        position: relative;
+        position: relative; 
+        }
       
-      }
-      .get-in-touch .title {
+        .get-in-touch .title {
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 3px;
@@ -313,12 +221,7 @@ body {
       }
       
       
-     
-
-
-
-
-/* MEDIAQUERY*/
+     /* MEDIAQUERY*/
 @media (max-width: 1023px) {
     .marcas {
         text-align: center;
@@ -327,31 +230,16 @@ body {
     .h1 {
         font-size: 2rem;
 }
-.ofertas__destacadas1 {
-        font-size: 16px;
-
-}
-.ofertas__destacadas2 {
-        font-size: 16px;
-
-}
-.ofertas__destacadas3 {
+.ofertas__destacadas {
         font-size: 16px;
 
 }
 
-.electrotitulo1 {
+
+.electrotitulo {
         font-size: 16px;
 }
-.electrotitulo2{
-        font-size: 16px;
-}
-.electrotitulo3 {
-        font-size: 16px;
-}
-.electrotitulo4 {
-        font-size: 16px;
-}
+
 
 
 
@@ -406,30 +294,15 @@ body {
     .h1 {
             font-size: 1.5rem;
     }
-    .ofertas__destacadas1 {
+    .ofertas__destacadas {
         font-size: 14px;
 
 }
-.ofertas__destacadas2 {
-        font-size: 14px;
 
-}
-.ofertas__destacadas3 {
+.electrotitulo {
         font-size: 14px;
+}
 
-}
-.electrotitulo1 {
-        font-size: 14px;
-}
-.electrotitulo2{
-        font-size: 14px;
-}
-.electrotitulo3 {
-        font-size: 14px;
-}
-.electrotitulo4 {
-        font-size: 14px;
-}
     .focus-in-contract-bck {
         -webkit-animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
                 animation: focus-in-contract-bck 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
